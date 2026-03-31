@@ -2,7 +2,7 @@ package org.example.mapstruct_demonstration.avecmapStruct;
 
 public class User {
     private Long id;
-    private String nom;
+    private String fullName;
     private String password;
 
     public Long getId() {
@@ -13,12 +13,12 @@ public class User {
         this.id = id;
     }
 
-    public String getNom() {
-        return nom;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public String getPassword() {
